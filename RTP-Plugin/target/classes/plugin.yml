@@ -1,0 +1,10 @@
+name: RTP-Plugin
+version: 1.0 Release
+main: com.github.ukraine1449.rtpplugin.RTPPlugin
+api-version: 1.16
+authors: [ Ukraine1449 ]
+description: A plugin to teleport the person executing it to a random location
+website: virtualcanadians.space
+commands:
+  RTP:
+    description: teleports player to random location
