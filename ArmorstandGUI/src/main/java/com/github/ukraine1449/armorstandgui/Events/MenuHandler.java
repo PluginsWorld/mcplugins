@@ -12,7 +12,7 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class MenuHandler implements Listener {
-ArmorStandGUI plugin;
+    ArmorStandGUI plugin;
 
     public MenuHandler(ArmorStandGUI plugin) {
         this.plugin = plugin;
@@ -415,6 +415,15 @@ ArmorStandGUI plugin;
                             }else {
                                 stand.setHelmet(new ItemStack(Material.CARVED_PUMPKIN));
                                 player.sendMessage(ChatColor.GOLD + "Set carved pumpkin");
+                            }
+                            event.setCancelled(true);
+                            break;
+                        case ELYTRA:
+                            if(stand.getChestplate().getType() == Material.ELYTRA){
+                                stand.setChestplate(null);
+                            }else {
+                                stand.setChestplate(new ItemStack(Material.ELYTRA));
+                                player.sendMessage(ChatColor.GOLD + "Set Elytra");
                             }
                             event.setCancelled(true);
                             break;
