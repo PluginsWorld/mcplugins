@@ -146,6 +146,7 @@ public final class ArmorStandGUI extends JavaPlugin {
 
         ItemStack turthelm = new ItemStack(Material.TURTLE_HELMET);
         ItemStack pumpkin = new ItemStack(Material.CARVED_PUMPKIN);
+        ItemStack elytra = new ItemStack(Material.ELYTRA);
 
 
 
@@ -186,26 +187,10 @@ public final class ArmorStandGUI extends JavaPlugin {
 
         armormenu.setItem(4, turthelm);
         armormenu.setItem(6, pumpkin);
+        armormenu.setItem(10, elytra);
         armormenu.setItem(31, confirm);
         player.openInventory(armormenu);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     @Override
     public void onDisable() {
         // Plugin shutdown logic
