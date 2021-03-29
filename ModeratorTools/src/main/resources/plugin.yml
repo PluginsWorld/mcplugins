@@ -1,0 +1,20 @@
+name: ModeratorTools
+version: ${project.version}
+main: com.github.ukraine1449.moderatortools.ModeratorTools
+api-version: 1.16
+authors: [ Ukraine1449 ]
+description: A plugin that gives moderators tools to help them do their jobs.
+website: plugins.world
+commands:
+  getFood:
+    description: gets the food level of another player
+  getHealth:
+    description: gets the health level of another player
+  god:
+    description: puts you or another player into godmode
+  vanish:
+    description: makes you or another player invisible
+  openinv:
+    description: opens the inventory of the target player
+  openec:
+    description: opens the inventory of the target player
