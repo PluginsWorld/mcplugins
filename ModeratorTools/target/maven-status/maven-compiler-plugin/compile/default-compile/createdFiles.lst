@@ -1,0 +1,8 @@
+com\github\ukraine1449\moderatortools\Commands\getHealth.class
+com\github\ukraine1449\moderatortools\ModeratorTools.class
+com\github\ukraine1449\moderatortools\Commands\PlayerJoinEvent.class
+com\github\ukraine1449\moderatortools\Commands\openEC.class
+com\github\ukraine1449\moderatortools\Commands\Vanish.class
+com\github\ukraine1449\moderatortools\Commands\getFood.class
+com\github\ukraine1449\moderatortools\Commands\God.class
+com\github\ukraine1449\moderatortools\Commands\OpenInv.class
