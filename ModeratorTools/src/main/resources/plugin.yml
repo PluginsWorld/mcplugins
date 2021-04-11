@@ -1,0 +1,36 @@
+name: ModeratorTools
+version: ${project.version}
+main: com.github.ukraine1449.moderatortools.ModeratorTools
+api-version: 1.16
+authors: [ Ukraine1449 ]
+description: A plugin that gives moderators tools to help them do their jobs.
+website: plugins.world
+commands:
+  getFood:
+    description: gets the food level of another player
+    permission: modplugin.getFood
+    permission-message: Please get the following permission; modplugin.getFood
+  getHealth:
+    description: gets the health level of another player
+    permission: modplugin.getHealth
+    permission-message: Please get the following permission; modplugin.getHealth
+  god:
+    description: puts you or another player into godmode
+    permission: modplugin.god
+    permission-message: Please get the following permission; modplugin.god
+  vanish:
+    description: makes you or another player invisible
+    permission: modplugin.vanish
+    permission-message: Please get the following permission; modplugin.vanish
+  openinv:
+    description: opens the inventory of the target player
+    permission: modplugin.openInv
+    permission-message: Please get the following permission; modplugin.openInv
+  openec:
+    description: opens the inventory of the target player
+    permission: modplugin.openEC
+    permission-message: Please get the following permission; modplugin.openEC
+  fly:
+    description: lets you fly around. Reach for the sky.
+    permission: modplugin.fly
+    permission-message: Please get the following permission; modplugin.fly
