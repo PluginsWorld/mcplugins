@@ -1,0 +1,11 @@
+name: ArmorStandGUI
+version: ${project.version}
+main: com.github.ukraine1449.armorstandgui.ArmorStandGUI
+api-version: 1.16
+authors: [ Ukraine1449 ]
+description: A gui to create an armorstand
+commands:
+  asgui:
+    description: opens an armorstand GUI
+    permission: asgui.create
+    permission-message: Please get the permission called; asgui.create
