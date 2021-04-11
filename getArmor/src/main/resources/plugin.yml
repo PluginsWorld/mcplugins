@@ -1,0 +1,12 @@
+name: GetArmor
+version: ${project.version}
+main: com.github.ukraine1449.getarmor.GetArmor
+api-version: 1.16
+authors: [ Ukraine1449 ]
+description: gets the health and enchantments of a piece of armor
+website: Plugins.world
+commands:
+  getarmor:
+    description: gets armor and enchantments
+    permission: getarmor.getarmor
+    permission-message: Please get the permission called; getarmor.getarmor
